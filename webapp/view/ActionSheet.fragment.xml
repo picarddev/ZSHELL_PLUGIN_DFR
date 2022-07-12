@@ -1,0 +1,7 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<ActionSheet title="Select a Service" placement="Bottom" buttons="{path: 'service>/'}">
+		<buttons>
+			<Button text="{servcie>name}" press="onServiceSelected"/>
+		</buttons>
+	</ActionSheet>
+</core:FragmentDefinition>
